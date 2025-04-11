@@ -19,18 +19,18 @@ change_dotplot(
 )
 }
 \arguments{
-\item{dot_size}{The size of dots}
-
-\item{label_spread}{How far away from the dots you would like
-corresponding data labels to sit}
-
-\item{sort}{The name of the variable to sort y-axis labels by. Can be any
+\item{sort_by}{The name of the variable to sort y-axis labels by. Can be any
 variable passed to \code{to} or \code{from}, the name \code{change} (if
 \code{change_col = TRUE}), or \code{NULL}, in which case it sorts by the default
 for \code{y}'s data type.
 
 Need to include an error message for when sort = change and
 change_col = FALSE}
+
+\item{dot_size}{The size of dots}
+
+\item{label_spread}{How far away from the dots you would like
+corresponding data labels to sit}
 }
 \description{
 This differs from other dotplots in that dots are connected by an arrow
