@@ -158,6 +158,7 @@ bars_in_bars <- function(
 #' @importFrom stringr str_wrap
 #'
 #' @export
+#'
 one_bars <- function(
   data,
   var,
@@ -240,6 +241,7 @@ one_bars <- function(
 #' @importFrom stringr str_extract str_wrap
 #'
 #' @export
+#'
 batt_bars <- function(
   data,
   batt,
