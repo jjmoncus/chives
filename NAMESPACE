@@ -2,8 +2,10 @@
 
 export(adjust_x_continuous)
 export(bars_in_bars)
+export(batt_bars)
 export(change_dotplot)
 export(normal_bars)
+export(one_bars)
 export(stacked_bars)
 export(theme_main)
 import(dplyr)
