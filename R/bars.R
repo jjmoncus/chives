@@ -269,7 +269,7 @@ batt_bars <- function(
     attr("label") %>%
     str_extract("^.*(?=:)")
 
-  p <- noodles::batt_totals(data, batt, label_regex, value_to_find) %>%
+  p <- noodles::batt_totals(data, batt, value_to_find, label_regex) %>%
     ggplot() +
     normal_bars(
       x = value,
