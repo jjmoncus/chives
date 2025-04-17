@@ -1,0 +1,8 @@
+library(tidyverse)
+library(here)
+library(glue)
+
+
+folder <- "~/Downloads"
+file <- list.files(folder) %>% str_subset("data") %>% str_subset("rds")
+data <- readRDS(glue("{folder}/{file}"))
